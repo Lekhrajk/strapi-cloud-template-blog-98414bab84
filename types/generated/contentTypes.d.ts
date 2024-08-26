@@ -11,10 +11,10 @@ export interface AdminPermission extends Schema.CollectionType {
   };
   pluginOptions: {
     'content-manager': {
-      visible: false;
+      visible: true;
     };
     'content-type-builder': {
-      visible: false;
+      visible: true;
     };
   };
   attributes: {
